@@ -1,0 +1,197 @@
+/* HOME PAGE */
+
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+    background-color: #fffaf5;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.logo span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    margin-right: 500px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 10px;   
+}
+
+.nav-links li a:hover {
+    background-color:  #e57676;
+    color: black;
+    transform: scale(1,1);
+}
+
+/* Hero Section */
+
+.hero-section img {
+    height: 800px;
+    width: 1900px;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.hero-section {
+    position: relative;
+}
+
+.heading {
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    top: 35%;
+    left: 40%;
+}
+
+.sub-heading {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 45%;
+    left: 38%;
+}
+
+.hero-section button {
+    background-color: rgb(10, 11, 10);
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 49%;
+    border: none;
+    font-size: 25px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 50px;
+}
+
+.hero-section button:hover {
+    /* background-color:  #f2d3d3;
+    color: black;
+    transform: scale(1.1); */
+    border-radius: 50px;
+    box-shadow: 2px 1px 3px 8px rgb(249, 247, 247);
+}
+
+/* Cloths Section */
+
+.cloths {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(247, 241, 230);
+}
+
+.heading-2 {
+    color: rgb(10, 56, 10);
+    margin-top: 15px;
+}
+
+.row {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.row img {
+    height: 500px;
+    width: 400px;
+}
+
+.row img:hover {
+    box-shadow: 2px 2px 9px 9px rgb(108, 104, 104);
+}
+
+.aaa {
+    grid-column: 3;
+}
+
+.col-1 {
+    grid-row: inherit;
+    background: #b4b1b1;
+    margin: 30px;
+}
+
+.card a {
+    /* background-color: #5385f3;*/
+    color: white; 
+    text-decoration: none;
+}
+
+.card a:hover {
+    box-shadow: 2px 2px 9px 9px rgb(217, 217, 171);
+    background-color: #fbf7f7;
+    color: black;
+    transform: scale(1.1);
+    padding: 10px 50px;
+}
+
+/* Map Section */ 
+
+.map {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.row-1 {
+    margin: 50px 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}

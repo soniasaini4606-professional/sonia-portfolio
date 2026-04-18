@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Students Registration Form</title>
+        <style>
+            body {
+                background-color: #fdf1e3; 
+                font-family: arial;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh; 
+            }  
+
+            /* Main Form Box */
+
+            .box {
+                background-color: rgba(22, 192, 189, 0.821);
+                padding: 40px;
+                border-radius: 25px;
+                width: 340px;
+                color: white;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            }
+
+            h1{
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            label {
+                display: inline-block;
+                width: 100px;
+                margin: 10px 0;
+                color: #fdf1e3;
+            }
+
+            .group {
+                padding: 10px;
+                border-radius: 8px;
+                border: none;
+                background-color: #fcf6ef;
+                font-size: bold;
+                color: #155858;
+            }
+
+            .submit {
+                background: #f5b37a;
+                color: black;
+                padding: 12px 25px;
+                border: none;
+                border-radius: 12px;
+                margin-top: 20px;
+                font-size: 18px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <h1>Student Registration</h1>
+            <form>
+                <label>Name:</label> 
+                <input type="text" placeholder="Enter your name" class="group"><br>
+
+                <label>Email:</label> 
+                <input type="email" placeholder="SW23@gmail.com" class="group"><br>
+                
+                <label>Gender:</label> 
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <br>
+
+                <label>Course:</label> 
+                <select class="group">
+                    <option>--Select Course--</option>
+                    <option>Full Stack</option>
+                    <option>Digital Marketing</option>
+                    <option>Data Analyst</option>
+                    <option>AI & ML</option>
+                    <option>CWT</option>
+                </select>
+                <br>
+                
+                <label>Hobbies:</label> 
+                <input type="checkbox" name="reading">Reading
+                <input type="checkbox" name="sports">Sports
+                <input type="checkbox" name="music">Music
+                <br>
+
+                <label>Upload Photos:</label>
+                <input type="file" style="width: 200px;">
+
+                <input type="submit" value="Submit" class="submit">
+
+            </form>
+        </div>
+    </body>
+</html>
